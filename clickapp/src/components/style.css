@@ -1,0 +1,13 @@
+li{
+    width: 100%;
+}
+
+ul li{
+    display: inline;
+}
+
+#rS{
+    padding-top: 10%;
+    height: 350px;
+    position: relative;
+}
