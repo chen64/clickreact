@@ -1,4 +1,4 @@
-.click-item {
+.image {
     background: #fff;
     border-radius: 2px;
     height: 150px;
@@ -7,4 +7,16 @@
     width: 150px;
     box-shadow: 0 3px 6px #999, 0 3px 6px #999;
     text-align: left;
+    
+  }
+
+  .image > .img-container {
+    padding-top: 20%;
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+    background:#6CADDC;
+  }
+  .image > .img-container > img {
+    width: 60%
   }

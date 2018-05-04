@@ -11,7 +11,7 @@ const Counter = props => (
                     </li>
                     <li className="">You guessed {}</li>
                     <li>
-                        Score: {props.count} | Top Score: {}
+                        Score: {props.score} | Top Score: {props.scoreH}
                     </li>
                 </ul>
             </nav>

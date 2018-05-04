@@ -1,15 +1,15 @@
 import React from "react";
-import "./card.css"
+import "./card.css";
+import "../images";
 //the clicks
-    let picture = {
-        width: "100%",
-        backgroundImage: `url()`
-    }
 
 const CardBody = props => (
-    //<div>
-    // <div className="card" id="pC">
-        <div role="img" aria-label="click item" className="click-item" style={{backgroundImage: `url(${props.image})`}} onClick={() => props.handle(props.id)}></div>
-    // </div>
+
+    <div className="image" onClick={props.handle(props.id)}>
+        <div className="img-container">
+            <img alt="pokemon" src={props.image} />
+        </div>
+    </div>
+
 );
 export default CardBody;
