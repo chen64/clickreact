@@ -5,9 +5,9 @@ import "../images";
 
 const CardBody = props => (
 
-    <div className="image" onClick={props.handle(props.id)}>
+    <div className="image" onClick={() => props.handle(props.id)}>
         <div className="img-container">
-            <img alt="pokemon" src={props.image} />
+            <img alt="pokemon" src={props.image}/>
         </div>
     </div>
 
