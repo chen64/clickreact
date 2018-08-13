@@ -20,7 +20,7 @@ const Counter = props => (
         <header className="header">
             <div className="card text-center bg-info text-black" id="rS">
                 <h1>Click Game</h1>
-                <h2>Click on each image one to earn points per round</h2>
+                <h2>Click on each image once to earn points per round</h2>
             </div>
         </header>
     </div>
